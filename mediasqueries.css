@@ -1,0 +1,175 @@
+
+/* header */
+
+#menu {
+width: 100%;
+justify-content: center;
+justify-content: space-around;
+}
+
+
+header nav ul li {
+display: flex;
+justify-content: center;
+    width: 100%;
+ }
+#navigation {
+  flex-direction: column;
+}
+
+header nav li a:hover{
+  border-top: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#navigation li:hover {
+  border-bottom: 3px solid rgb(75, 75, 187);
+
+  padding-bottom: 20px ;
+  color: rgb(75, 75, 187);
+
+  /* Recherche */
+} 
+.fa-magnifying-glass {
+  display: inline;
+  padding: 15px;
+}
+
+.masterrecherche {
+  display: flex;
+  justify-content: center;
+}
+
+.bouttonrecherche {
+  display: none;
+}
+.texte1 .nuit {
+  padding-bottom: 15px;
+}
+
+/* Recherche */
+
+.loupe {
+  display: inline;
+  /* margin-top: 13px; */
+}
+
+/* Filtres */
+
+.conteneur {
+  justify-content: center;
+}
+
+.card img {
+  height: 50%;
+}
+
+.card .texte1 p {
+  padding: 15px;
+}
+
+h4 .soustexte1p {
+  padding-bottom: 15px;
+}
+
+.Master {
+  flex-wrap: wrap;
+
+  justify-content: center;
+  
+}
+
+.General {
+  width: 100%;
+  order: 1;
+}
+
+.card {
+  height: 100%;
+  width: 95%;
+  overflow: hidden;
+}
+
+.card .texte1 p {
+  padding: 0;
+}
+
+
+.card img {
+  max-height: 190px;
+}
+
+.cardpt,
+.cardgd {
+  width: 100%;
+  height: 300px;
+}
+/* Partie 2 les plus pop */
+
+.Global {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section2 {
+  width: 100%;
+  height: 100%;
+
+}
+
+
+
+.card2 {
+  display: flex;
+  width: 95%;
+  height: 100%;
+  margin: 10px;
+}
+
+
+
+.card2 img{
+width: 100%;
+height: 100%;
+}
+
+.texte1p2{
+  width: 50%;
+}
+
+
+
+/* activités */
+
+.activités {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.text1p2 {
+  width: 100%;
+}
+
+
+.ACTphoto,
+.ACTphotopt {
+  height: 80%;
+}
+
+.ACTphoto img,
+.ACTphotopt img {
+  height: 100%;
+}
+
+.ACTtexte,
+.ACTtextept {
+  padding-top: 3%;
+}
+
+.footer {
+  flex-wrap: wrap;
+}
